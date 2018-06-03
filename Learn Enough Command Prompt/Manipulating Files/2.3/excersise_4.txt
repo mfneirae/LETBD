@@ -11,17 +11,12 @@
       For more information write me to jai@mfneirae.com
       Or visit my webpage at https://mfneirae.com/
 #############################################################################
-
+This command will ask for your confirmation to delete the file:
 ```bash
-$ echo hello, world > foo.txt
-$ cat foo.txt
-hello, world
-$ cp foo.txt bar.txt
-$ ls -rtl
-total 12
--rw-rw-r-- 1 mfneirae mfneirae 512 jun  2 23:15 excersise_1.txt
--rw-r--r-- 1 mfneirae mfneirae  13 jun  2 23:55 foo.txt
--rw-r--r-- 1 mfneirae mfneirae  13 jun  2 23:55 bar.txt
-$ diff foo.txt bar.txt
-$
+$ rm nonexistent
+```
+While this command will delete ignoring nonexistent files and arguments,
+never prompt and without asking for your confirmation:
+```bash
+$ rm -f nonexistent
 ```

@@ -11,17 +11,15 @@
       For more information write me to jai@mfneirae.com
       Or visit my webpage at https://mfneirae.com/
 #############################################################################
-
 ```bash
-$ echo hello, world > foo.txt
-$ cat foo.txt
-hello, world
-$ cp foo.txt bar.txt
+$ cat foo.txt > baz.txt
 $ ls -rtl
-total 12
--rw-rw-r-- 1 mfneirae mfneirae 512 jun  2 23:15 excersise_1.txt
+total 20
 -rw-r--r-- 1 mfneirae mfneirae  13 jun  2 23:55 foo.txt
 -rw-r--r-- 1 mfneirae mfneirae  13 jun  2 23:55 bar.txt
-$ diff foo.txt bar.txt
-$
+-rw-rw-r-- 1 mfneirae mfneirae 823 jun  2 23:59 excersise_1.txt
+-rw-r--r-- 1 mfneirae mfneirae  13 jun  3 00:02 baz.txt
+-rw-rw-r-- 1 mfneirae mfneirae 548 jun  3 00:02 excersise_2.txt
+$ cat baz.txt
+hello, world
 ```
