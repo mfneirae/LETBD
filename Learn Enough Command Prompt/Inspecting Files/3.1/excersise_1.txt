@@ -1,0 +1,41 @@
+
+#############################################################################
+      Copyright (c) 2018 mfneirae.com All Rights Reserved.
+
+               This work  is licensed under a Creative Commons
+      Attribution-NonCommercial - ShareAlike 4.0 International
+      License and MIT Licence.
+
+      by Manuel Neira Embus.
+
+      For more information write me to jai@mfneirae.com
+      Or visit my webpage at https://mfneirae.com/
+#############################################################################
+```bash
+$ curl -I https://www.learnenough.com/
+HTTP/2 200
+date: Thu, 07 Jun 2018 01:36:45 GMT
+content-type: text/html; charset=utf-8
+set-cookie: __cfduid=d3d7dc27d8ef6161c799aab9fc73d08491528335405; expires=Fri, 07-Jun-19 01:36:45 GMT; path=/; domain=.learnenough.com; HttpOnly
+status: 200 OK
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+cache-control: max-age=0, private, must-revalidate
+x-request-id: 0d6e71d0-f93b-4dc3-ab4b-06ac916b4faf
+x-runtime: 0.070261
+via: 1.1 vegur
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 426f63b8be7eb572-BOG
+
+$ curl -I learnenough.com/
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 07 Jun 2018 01:37:50 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Thu, 07 Jun 2018 02:37:50 GMT
+Location: https://learnenough.com/
+Server: cloudflare
+CF-RAY: 426f6554a1c9b57e-BOG
+```
