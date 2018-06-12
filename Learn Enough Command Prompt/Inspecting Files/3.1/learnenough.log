@@ -1,0 +1,9 @@
+PING learnenough.com (104.25.168.34) 56(84) bytes of data.
+64 bytes from 104.25.168.34 (104.25.168.34): icmp_seq=1 ttl=54 time=3.06 ms
+64 bytes from 104.25.168.34 (104.25.168.34): icmp_seq=2 ttl=54 time=3.30 ms
+64 bytes from 104.25.168.34 (104.25.168.34): icmp_seq=3 ttl=54 time=3.26 ms
+64 bytes from 104.25.168.34 (104.25.168.34): icmp_seq=4 ttl=54 time=3.19 ms
+
+--- learnenough.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 3.065/3.209/3.309/0.115 ms

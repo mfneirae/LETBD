@@ -1,0 +1,33 @@
+
+#############################################################################
+      Copyright (c) 2018 mfneirae.com All Rights Reserved.
+
+               This work  is licensed under a Creative Commons
+      Attribution-NonCommercial - ShareAlike 4.0 International
+      License and MIT Licence.
+
+      by Manuel Neira Embus.
+
+      For more information write me to jai@mfneirae.com
+      Or visit my webpage at https://mfneirae.com/
+#############################################################################
+
+```
+$ ping learnenough.com > learnenough.log | tail -f learnenough.log
+64 bytes from 104.25.168.34 (104.25.168.34): icmp_seq=4 ttl=54 time=3.50 ms
+64 bytes from 104.25.168.34 (104.25.168.34): icmp_seq=5 ttl=54 time=3.11 ms
+64 bytes from 104.25.168.34 (104.25.168.34): icmp_seq=6 ttl=54 time=3.13 ms
+64 bytes from 104.25.168.34 (104.25.168.34): icmp_seq=7 ttl=54 time=4.26 ms
+64 bytes from 104.25.168.34 (104.25.168.34): icmp_seq=8 ttl=54 time=3.61 ms
+64 bytes from 104.25.168.34 (104.25.168.34): icmp_seq=9 ttl=54 time=3.09 ms
+
+--- learnenough.com ping statistics ---
+9 packets transmitted, 9 received, 0% packet loss, time 8011ms
+rtt min/avg/max/mdev = 3.023/3.325/4.260/0.387 ms
+tail: learnenough.log: file truncated
+PING learnenough.com (104.25.168.34) 56(84) bytes of data.
+64 bytes from 104.25.168.34 (104.25.168.34): icmp_seq=1 ttl=54 time=3.06 ms
+64 bytes from 104.25.168.34 (104.25.168.34): icmp_seq=2 ttl=54 time=3.30 ms
+64 bytes from 104.25.168.34 (104.25.168.34): icmp_seq=3 ttl=54 time=3.26 ms
+64 bytes from 104.25.168.34 (104.25.168.34): icmp_seq=4 ttl=54 time=3.19 ms
+```

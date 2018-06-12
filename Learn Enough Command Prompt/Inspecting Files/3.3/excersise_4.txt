@@ -1,0 +1,33 @@
+
+#############################################################################
+      Copyright (c) 2018 mfneirae.com All Rights Reserved.
+
+               This work  is licensed under a Creative Commons
+      Attribution-NonCommercial - ShareAlike 4.0 International
+      License and MIT Licence.
+
+      by Manuel Neira Embus.
+
+      For more information write me to jai@mfneirae.com
+      Or visit my webpage at https://mfneirae.com/
+#############################################################################
+```
+$ ls -rtl
+total 120
+-rw-r--r-- 1 mfneirae mfneirae 95635 jun  6 20:35 sonnets.txt
+-rw-rw-r-- 1 mfneirae mfneirae  1453 jun  6 20:41 excersise_1.txt
+-rw-rw-r-- 1 mfneirae mfneirae   738 jun 11 16:16 excersise_3.txt
+-rw-rw-r-- 1 mfneirae mfneirae   672 jun 11 16:16 excersise_2.txt
+-rw-rw-r-- 1 mfneirae mfneirae   861 jun 11 16:17 excersise_4.txt
+-rw-r--r-- 1 mfneirae mfneirae   294 jun 11 16:22 sonnets_head.txt
+-rw-r--r-- 1 mfneirae mfneirae   517 jun 11 16:34 learnenough.log
+$ ls -tls
+total 120
+ 4 -rw-r--r-- 1 mfneirae mfneirae   517 jun 11 16:34 learnenough.log
+ 4 -rw-r--r-- 1 mfneirae mfneirae   294 jun 11 16:22 sonnets_head.txt
+ 4 -rw-rw-r-- 1 mfneirae mfneirae   861 jun 11 16:17 excersise_4.txt
+ 4 -rw-rw-r-- 1 mfneirae mfneirae   672 jun 11 16:16 excersise_2.txt
+ 4 -rw-rw-r-- 1 mfneirae mfneirae   738 jun 11 16:16 excersise_3.txt
+ 4 -rw-rw-r-- 1 mfneirae mfneirae  1453 jun  6 20:41 excersise_1.txt
+96 -rw-r--r-- 1 mfneirae mfneirae 95635 jun  6 20:35 sonnets.txt
+```
